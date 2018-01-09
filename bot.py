@@ -5,7 +5,9 @@ from telegram.ext import Updater, InlineQueryHandler
 
 from config import token
 
+
 import re
+
 
 def krasivo(data):
     text = str(data.group(0))
