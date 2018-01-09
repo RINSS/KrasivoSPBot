@@ -7,7 +7,6 @@ from config import token
 
 import re
 
-
 def krasivo(data):
     text = str(data.group(0))
     return '`' + ' '.join(sym for sym in text if sym.isalnum()).upper() + '`'
